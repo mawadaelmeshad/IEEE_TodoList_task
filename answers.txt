@@ -1,0 +1,6 @@
+what is debouncing technique  and why it useful ?
+- a programming technique or practice that is used to improve the performance of our website by optimizing time-consuming tasks,
+ most commonly used to build the search functionality on the websites. Generally, we send requests to the server on the occurrence of each key press event which may block the thread as so many requests will be in the pending state. In that situation, we can use debouncing to avoid sending frequent requests instead send the request only when the user stops typing for some time (300ms-500ms)
+
+if i have state and i want to add another value how can i do that?
+- by using methods like the spread operator (...)
